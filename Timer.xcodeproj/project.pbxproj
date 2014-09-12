@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		506CED0319AB6AD1008BF1B1 /* Alarm.m4r in Resources */ = {isa = PBXBuildFile; fileRef = 506CED0219AB6AD1008BF1B1 /* Alarm.m4r */; };
 		50B6DA1019AA27B800D4C018 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50B6DA0F19AA27B800D4C018 /* Foundation.framework */; };
 		50B6DA1219AA27B800D4C018 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50B6DA1119AA27B800D4C018 /* CoreGraphics.framework */; };
 		50B6DA1419AA27B800D4C018 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50B6DA1319AA27B800D4C018 /* UIKit.framework */; };
@@ -21,6 +22,8 @@
 		50B6DA3119AA27B900D4C018 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50B6DA1319AA27B800D4C018 /* UIKit.framework */; };
 		50B6DA3919AA27B900D4C018 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 50B6DA3719AA27B900D4C018 /* InfoPlist.strings */; };
 		50B6DA3B19AA27B900D4C018 /* TimerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B6DA3A19AA27B900D4C018 /* TimerTests.m */; };
+		50B6DA4519AA42F900D4C018 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50B6DA4419AA42F900D4C018 /* AudioToolbox.framework */; };
+		50ED290519AC3DA500805AEA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50B6DA4619AA44B200D4C018 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		506CED0219AB6AD1008BF1B1 /* Alarm.m4r */ = {isa = PBXFileReference; lastKnownFileType = file; name = Alarm.m4r; path = ../../../Desktop/Alarm.m4r; sourceTree = "<group>"; };
 		50B6DA0C19AA27B800D4C018 /* Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Timer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50B6DA0F19AA27B800D4C018 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		50B6DA1119AA27B800D4C018 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +57,8 @@
 		50B6DA3619AA27B900D4C018 /* TimerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TimerTests-Info.plist"; sourceTree = "<group>"; };
 		50B6DA3819AA27B900D4C018 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		50B6DA3A19AA27B900D4C018 /* TimerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimerTests.m; sourceTree = "<group>"; };
+		50B6DA4419AA42F900D4C018 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		50B6DA4619AA44B200D4C018 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50ED290519AC3DA500805AEA /* AVFoundation.framework in Frameworks */,
+				50B6DA4519AA42F900D4C018 /* AudioToolbox.framework in Frameworks */,
 				50B6DA1219AA27B800D4C018 /* CoreGraphics.framework in Frameworks */,
 				50B6DA1419AA27B800D4C018 /* UIKit.framework in Frameworks */,
 				50B6DA1019AA27B800D4C018 /* Foundation.framework in Frameworks */,
@@ -101,6 +109,8 @@
 		50B6DA0E19AA27B800D4C018 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				50B6DA4619AA44B200D4C018 /* AVFoundation.framework */,
+				50B6DA4419AA42F900D4C018 /* AudioToolbox.framework */,
 				50B6DA0F19AA27B800D4C018 /* Foundation.framework */,
 				50B6DA1119AA27B800D4C018 /* CoreGraphics.framework */,
 				50B6DA1319AA27B800D4C018 /* UIKit.framework */,
@@ -127,6 +137,7 @@
 			isa = PBXGroup;
 			children = (
 				50B6DA1719AA27B800D4C018 /* Timer-Info.plist */,
+				506CED0219AB6AD1008BF1B1 /* Alarm.m4r */,
 				50B6DA1819AA27B800D4C018 /* InfoPlist.strings */,
 				50B6DA1B19AA27B800D4C018 /* main.m */,
 				50B6DA1D19AA27B800D4C018 /* Timer-Prefix.pch */,
@@ -228,6 +239,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				506CED0319AB6AD1008BF1B1 /* Alarm.m4r in Resources */,
 				50B6DA2819AA27B800D4C018 /* Images.xcassets in Resources */,
 				50B6DA1A19AA27B800D4C018 /* InfoPlist.strings in Resources */,
 				50B6DA2319AA27B800D4C018 /* Main.storyboard in Resources */,
@@ -317,7 +329,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iphone Dev";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -333,7 +345,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -355,7 +367,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iphone Dev";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -365,7 +377,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -376,9 +388,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iphone Dev";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Timer/Timer-Prefix.pch";
 				INFOPLIST_FILE = "Timer/Timer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -389,9 +403,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iphone Dev";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Timer/Timer-Prefix.pch";
 				INFOPLIST_FILE = "Timer/Timer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -456,6 +472,7 @@
 				50B6DA4019AA27B900D4C018 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		50B6DA4119AA27B900D4C018 /* Build configuration list for PBXNativeTarget "TimerTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +481,7 @@
 				50B6DA4319AA27B900D4C018 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
